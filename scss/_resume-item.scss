@@ -1,0 +1,72 @@
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+  .resume-item {
+    .resume-content {
+      padding-right: 10px;
+    }
+    .resume-date {
+      min-width: 60%;
+    }
+  }
+}
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+    .resume-item {
+      .resume-date {
+        width: 100%;
+      }
+    }
+  }
+}
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+.project-photo {
+  background-size: cover;
+  width: 100%;
+  // padding-left: 20px;
+    // padding: 0px 20px 0px 20px;
+  margin: 10px;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.699);
+  border-radius: 4px;
+    
+
+}
+
+// .text-md-right {
+//   // margin-top: 20px;
+//   // padding: 10px;
+
+// }
+
+// .text-md-right-left {
+//   // padding-right: 20px;
+// }
+
+// .project-photo:hover {
+//   box-shadow: 5px 5px 7px $primary;
+// }
+
+.container-fluid {
+    background-color: rgb(220, 220, 220);
+
+}
+
+p {
+  color: black;
+}
+
+.nav-link {
+  color: rgb(220, 220, 220);
+}
+
+.email-top {
+  color: #868e96;
+}
