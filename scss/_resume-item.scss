@@ -70,3 +70,9 @@ p {
 .email-top {
   color: #868e96;
 }
+
+.email-top:hover {
+  cursor: text;
+  color: #868e96;
+  text-decoration: none;
+}

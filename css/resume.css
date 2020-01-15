@@ -189,6 +189,12 @@ p {
   color: #868e96;
 }
 
+.email-top:hover {
+  cursor: text;
+  color: #868e96;
+  text-decoration: none;
+}
+
 .bg-primary {
   background-color: #693b58 !important;
 }
